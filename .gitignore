@@ -1,0 +1,32 @@
+# Ignore Jupyter Checkpoints and Untitled files
+.ipynb_checkpoints/
+Untitled*.ipynb
+
+# Ignore large embeddings, models, and chunks
+*.npy
+*.pkl
+scibert_chunks/
+nodevectors/
+catboost_info/
+anaconda_projects/
+db/
+
+# Ignore CSV submissions and presentation files
+*.csv
+*.pptx
+*.key
+*.zip
+
+# Ignore MacOS hidden files
+.DS_Store
+
+# Ignore extra folders and temp files
+NLP/
+.virtual_documents/
+*.blg
+
+# Ignore scratchpad scripts and extra report files
+nlp.py
+test.py
+paper_ids.txt
+report/
