@@ -30,3 +30,5 @@ nlp.py
 test.py
 paper_ids.txt
 report/
+
+data/abstracts.txt
